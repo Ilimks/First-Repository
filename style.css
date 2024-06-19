@@ -118,11 +118,12 @@
     margin: 0 auto;
 }
 
-.tool__list .p1{
+.tool__list .container .pa{
     font-weight: 600;
     font-size: 16px;
     line-height: 175%;
     letter-spacing: 0.05em;
+    color: #5F2EEA;
 }
 
 .tool__list__top{
@@ -272,4 +273,42 @@
     background: #5F2EEA;
     color: white;
     transition: .5s;
+}
+
+.view .container{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.view__top{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+  margin-bottom: 111px;
+}
+
+.view__top h2{
+  width: 515px;
+  height: 108px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 104%;
+  letter-spacing: 0.02em;
+}
+
+.view__top p{
+  width: 445px;
+  height: 110px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+}
+
+.view .container .pi{
+  color: #BCA4FF;
+}
+
+.swiper-slide{
+  background-color: transparent;
 }
