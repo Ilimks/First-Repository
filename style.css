@@ -123,11 +123,12 @@
   
 
 
-.tool__list .p1{
+.tool__list .container .pa{
     font-weight: 600;
     font-size: 16px;
     line-height: 175%;
     letter-spacing: 0.05em;
+    color: #5F2EEA;
 }
 
 .tool__list__top{
@@ -453,6 +454,15 @@ padding-left: 0;
   .tool__list .p1{
     width: 84%;
   }
+  .view__text{
+    flex-direction: column;
+  }
+  .view__left{
+    width: 100%;
+  }
+  .view__right{
+    width: 100%;
+  }
 }
 
 
@@ -460,3 +470,41 @@ padding-left: 0;
 2 - адаптация
 3 - использовать js (swiper,burger*,popup*,карты,видео)
 4 - презетнация */
+
+/* .view .container{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.view__top{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+  margin-bottom: 111px;
+}
+
+.view__top h2{
+  width: 515px;
+  height: 108px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 104%;
+  letter-spacing: 0.02em;
+}
+
+.view__top p{
+  width: 445px;
+  height: 110px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+}
+
+.view .container .pi{
+  color: #BCA4FF;
+}
+
+.swiper-slide{
+  background-color: transparent;
+} */
